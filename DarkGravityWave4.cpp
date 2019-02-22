@@ -76,8 +76,8 @@ unsigned int static DarkGravityWave3(const CBlockIndex* pindexLast, const CBlock
     // Some logging.
     // TODO: only display these log messages for a certain debug option.
     printf("Difficulty Retarget - Dark Gravity Wave 3\n");
-    printf("Before: %s\n", BlockLastSolved->nBits);
-    printf("After: %s\n", bnNew.GetCompact());
+    printf("Before: %02x\n", BlockLastSolved->nBits);
+    printf("After: %02x\n", bnNew.GetCompact());
 
     // Return the new diff.
     return bnNew.GetCompact();
