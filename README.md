@@ -1,4 +1,4 @@
-# DarkGravityWave4
+# DarkGravityWave3 for Bitcoin Core 17.x
 Adaptation from https://gist.github.com/GeertJohan/b28da8105babf0553f21
 
 ```
